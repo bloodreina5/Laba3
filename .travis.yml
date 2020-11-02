@@ -6,7 +6,7 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../Lab3
+  - cmake ../Laba3
   - make -j
   - ./test/test_Steck
 notifications:
